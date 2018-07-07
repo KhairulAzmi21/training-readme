@@ -22,8 +22,6 @@ $ laravel new project
             $table->integer('patient_type');
             $table->string('name');
             $table->string('gender');
-            $table->string('birthDate');
-            $table->string('bloodGroup');
             $table->string('mobile')->nullable;
             $table->string('email')->nullable();
             $table->string('address');
